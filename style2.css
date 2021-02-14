@@ -1,0 +1,407 @@
+
+@font-face
+{
+	font-family: 'BallparkWeiner';
+	src: url('polices/ballpark.eot');
+	src: url('polices/ballpark.eof?#iefix') format('embedded-opentype'),
+		 url('polices/ballpark.woff') format('woff'),
+		 url('polices/ballpark.ttf') format('truetype'),
+		 url('polices/ballpark.svg#BallparkWeiner') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'Dayrom';
+	src: url('polices/dayrom.eot');
+	src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+		 url('polices/dayrom.woff') format('woff'),
+		 url('polices/dayrom.ttf') format(truetype),
+		 url('polices/dayrom.svg#BallparkWeiner') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body
+{
+	background: url('images/fond_jaune.png');
+	font-family: Arial, sans-serif;
+	color: #181818;
+}
+
+#bloc_page
+{
+	width: 950px;
+	margin: auto;
+	border-radius: 10px;
+	background-color: rgb(239, 239, 239); 
+}
+
+#blog_page
+{
+	padding-top: 20px;
+	padding-left: 10px;
+	height: 20px;
+}
+
+#blog_page a
+{
+	font-family: dayron, serif, Arial;
+	font-style: italic;
+	text-decoration: none;
+	font-size: 0.8em;
+	color: rgb(93, 93, 93);
+}
+
+#blog_page a:hover
+{
+	text-decoration: underline;
+	font-weight: normal;
+	font-style: normal;
+}
+
+#titre_principale
+{
+	height: 60px;
+	background-color: rgb(203, 228, 228);
+	margin-top: 0px;
+	text-align: center;
+	font-family: 'Cambria Math', serif, Arial;
+	text-shadow: 3px 3px rgba(77, 77, 77);
+}
+
+#titre_principale h1
+{
+	font-size: 1.2em;
+	padding-top: 3px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+
+#titre_principale h5
+{
+	padding-top: 0px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	margin-top: 5px;
+	margin-right: 120px;
+	font-family: dayrom, serif;
+	font-size: 1.2em;
+	color: white;
+	text-align: right;
+	font-style: italic;
+}
+
+nav
+{
+	height: 30px;
+
+}
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 5px;
+	padding-left: 2px;
+
+}
+nav li
+{
+	width: auto;
+}
+
+nav a
+{
+	text-decoration: none;
+	color: rgb(111, 111, 255);
+	text-transform: uppercase;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+nav a:hover
+{
+	border-bottom: 2px solid rgb(98, 98, 255);
+	color: rgb(98,98, 255);
+}
+
+nav a:active
+{
+	color: rgb(0,204,0);
+}
+
+#baniere_img
+{
+	height: 200px;
+	background: url('images/coronavirus.jpg');
+	margin-top: 10px;
+}
+
+section article
+{
+	margin: 10px;
+	text-align: left;
+}
+
+section article h3
+{
+	font-family: 'Dayrom', sans-serif, Arial;
+	font-size: 1.2em;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	padding-top: 10px;
+	color: rgb(0, 108, 108);
+}
+
+section p
+{
+	font-size: 1em;
+	text-align: justify;
+}
+
+section article p span
+{
+	margin-left: 25px;
+}
+
+section a
+{
+	text-decoration: none;
+	font-style: italic;
+	color: rgb(0,0,255);
+}
+
+section a strong
+{
+	font-style: italic;
+}
+
+section a:hover
+{
+	color: green;
+}
+
+section ul
+{
+	margin-top: 2px;
+	padding-top: 0px;
+	margin-left: 150px;
+}
+
+section li em
+{
+	font-style: italic;
+	color: green;
+	text-decoration: underline;
+}
+
+#list_particulier ul
+{
+	list-style-type: none;
+	margin-left: 100px;
+}
+
+section p em
+{
+	font-style: italic;
+	color: rgb(217, 217, 0);
+}
+footer
+{
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	padding-left: 15px;
+	background: url('images/separateur.png') repeat-x top;
+	height: 55px;
+	padding-top: 15px;
+	margin-top: 15px;
+}
+
+footer strong
+{
+	color: rgb(140, 140, 255);
+	font-size: 1em;
+	font-style: italic;
+	font-weight: normal;
+	margin-right: 10px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+footer em
+{
+	font-style: normal;
+	font-size: 1em;
+	color: rgb(0, 221, 0);
+	margin-left: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+footer img
+{
+	border:1px solid black;
+	margin-right: 5px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+footer p
+{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+#auteur
+{
+	color: rgb(72, 72, 72);
+	margin-right: 15px;
+	font-style: italic;
+	font-weight: bold;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+#creative_commons
+{
+  font-family:Arial;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 1em;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  font-size: 0.7em;
+  color: rgb(140, 140, 255);
+  border-color: rgb(140, 140, 255);
+  margin-top: 0px;
+  padding-top: 0px;
+ }
+@media all  and (max-width: 1024px)
+{
+	#bloc_page
+	{
+		width: auto;
+	}
+
+	#blog_page
+	{
+		height: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	#blog_page a:hover
+	{
+		font-size: 1em;
+	}
+
+	#titre_principale
+	{
+		height: 45px;
+	}
+
+	#titre_principale h1
+	{
+		font-size: 1.2em;
+		margin-bottom: 0px;
+	}
+
+	#titre_principale h5
+	{
+		font-size: 1em;
+		padding-right: 100px;
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+
+	nav
+	{
+		height: auto;
+		text-align: left;
+		background: url('images/separateur.png') repeat-x bottom;
+		display: flex;
+	}
+
+	nav a
+	{
+		font-size: 1em;
+	}
+	#menu_speciale
+	{
+		background: url('images/coronavirus.jpg') center;
+		width: 100%;
+	}
+
+	nav ul
+	{
+		flex-direction: column;
+		padding-left: 10px;
+		margin-top: 3px;
+		width: 300px;
+	}
+
+	nav li
+	{
+		margin-bottom: 5px;
+	}
+
+	#baniere_img
+	{
+		display: none;
+	}
+
+	section ul
+	{
+		margin-left: 130px;
+	}
+}
+
+@media all and (max-width: 800px)
+{
+	#titre_principale
+	{
+		height: 40px;
+	}
+
+	#titre_principale h1
+	{
+		font-size: 1em;
+		margin-bottom: 0px;
+	}
+
+	#titre_principale h5
+	{
+		font-size: 0.9em;
+		padding-right: 60px;
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+}
+
+@media all and (max-width: 700px)
+{
+	#titre_principale
+	{
+		height: 35px;
+	}
+
+	#titre_principale h1
+	{
+		font-size: 0.74em;
+		margin-bottom: 0px;
+	}
+
+	#titre_principale h5
+	{
+		font-size: 0.9em;
+		padding-right: 100px;
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+}
