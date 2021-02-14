@@ -63,36 +63,37 @@ body
 
 #titre_principale
 {
-	height: 60px;
-	background-color: rgb(203, 228, 228);
+	height: 75px;
+	background-color: rgb(63, 145, 145);
 	margin-top: 0px;
 	text-align: center;
-	font-family: 'Cambria Math', serif, Arial;
-	text-shadow: 3px 3px rgba(77, 77, 77);
 }
 
 #titre_principale h1
 {
-	font-size: 1.2em;
+	font-family: 'Ranchers', cursive;
+	font-size: 1.6em;
 	padding-top: 3px;
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-bottom: 0px;
 	text-transform: uppercase;
+	text-shadow: 5px 5px rgba(77, 77, 77, 0.592);
 }
 
 #titre_principale h5
 {
+	color: whitesmoke;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	font-style: italic;
+	margin-top: 2px;
+	margin-right: 100px;
 	padding-top: 0px;
 	padding-bottom: 7px;
 	padding-right: 0px;
-	margin-top: 5px;
-	margin-right: 120px;
-	font-family: dayrom, serif;
-	font-size: 1.2em;
-	color: white;
 	text-align: right;
-	font-style: italic;
+	text-shadow: 5px 5px rgba(77, 77, 77, 0.748);
 }
 
 nav
@@ -122,6 +123,9 @@ nav a
 	text-transform: uppercase;
 	font-size: 0.8em;
 	font-weight: bold;
+	border: 2px solid black;
+	border-radius: 2px;
+	height: 20px;
 }
 
 nav a:hover
