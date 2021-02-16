@@ -103,14 +103,50 @@ nav a
 	border-radius: 7px 7px 0px 0px;
 	bottom: 0px;
 	color: blanchedalmond;
-	font-size: 1.5em;
-	font-weight: bold;
+	font-size: 1.3em;
 	font-style: italic;
 	height: 40px;
 	letter-spacing: 3px;
 	margin-bottom: 0px;
+	padding-left: 25px;
+	padding-top: 20px;
+	padding-right: 25px;
 	padding-bottom: 0px;
 	position: absolute;
+}
+
+.content-main
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.info-main
+{
+	border: 1px solid rgba(73, 213, 213, 0.83);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.3em;
+	margin-top: 40px;
+	padding: 10px;
+	position: relative;
+	width: 70%;
+}
+
+.info-main h3
+{
+	background-color:  rgba(73, 213, 213, 1);
+	border: 1px solid rgba(73, 213, 213, 0.83);
+	border-radius: 5px;
+	color: rgba(255, 255, 255, 0.775);
+	font-size: 1.4em;
+	font-weight: bold;
+	letter-spacing: 3px;
+	margin: auto;
+	margin-left: 40%;
+	position: absolute;
+	text-shadow: 5px 3px 3px rgba(0, 0, 0, 0.462);
+	text-transform: uppercase;
+	top: -25px;
 }
 /*
 #baniere_img
