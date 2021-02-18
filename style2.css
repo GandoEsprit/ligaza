@@ -147,7 +147,7 @@ nav a
 
 .info-main h3
 {
-	background-color:  rgba(0, 0, 255, 0.585);
+	background-color:  rgba(0, 0, 0, 0.326);
 	border: 1px solid rgba(73, 213, 213, 0.83);
 	border-radius: 5px;
 	color: rgba(255, 255, 255, 0.775);
@@ -260,6 +260,34 @@ nav a
 	color: white;
 	font-size: 0.7em;
 	text-decoration: none;
+}
+
+footer
+{
+	background: url('images/separateur.png') repeat-x top;
+	color: rgb(150, 100, 25);
+	display: flex;
+	font-size: 0.8em;
+	font-style: italic;
+	font-weight: bold;
+	justify-content: space-between;
+	margin-bottom: 0px;
+	margin-top: 15px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#creative-commons
+{
+  	border: 1px solid rgb(150, 100, 25);
+	box-sizing: border-box;
+	border-radius: 1em;
+	font-family:Arial;
+	font-size: 0.8em;
+	font-weight: normal;
+	height: 2em;
+	width: 2em;
 }
 /*
 section article
